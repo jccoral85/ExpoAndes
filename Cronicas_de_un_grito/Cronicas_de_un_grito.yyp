@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "03077ae6-a9b3-4d04-a3da-8143d2d33335",
+            "Value": {
+                "id": "1d218e10-fd52-4ec6-9b5a-6fd388c30b5e",
+                "resourcePath": "objects\\Protagonista_obj\\Protagonista_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0b045321-d61b-449c-8c9e-b9aa3dd4591f",
             "Value": {
                 "id": "93e13385-597b-4498-9aba-908107b6b837",
@@ -47,6 +55,14 @@
             }
         },
         {
+            "Key": "1720d1fc-deb4-49f2-bdaa-2dab7ec08748",
+            "Value": {
+                "id": "f32a3c82-65d0-4c5e-b43f-ff4b9849f6fa",
+                "resourcePath": "sprites\\Enemigo_1\\Enemigo_1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1bda5571-0b03-4459-b99b-2d65f5719585",
             "Value": {
                 "id": "6b50c114-ca58-4eb2-81c9-db87e4bad986",
@@ -55,11 +71,27 @@
             }
         },
         {
+            "Key": "1d12fac7-6af3-4e70-9b06-4f2d3f062458",
+            "Value": {
+                "id": "8933cc91-ef08-41b1-9287-9e29f302ce5b",
+                "resourcePath": "objects\\Enemigo_obj\\Enemigo_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "210059ca-e246-451d-a4a7-e916139c342e",
             "Value": {
                 "id": "03da916f-3169-4c35-bbb9-7ac790f8930b",
                 "resourcePath": "views\\210059ca-e246-451d-a4a7-e916139c342e.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "22e84720-85d4-4d63-a201-27983623f589",
+            "Value": {
+                "id": "bb05a328-3ab2-470c-933c-3f66b2d01027",
+                "resourcePath": "scripts\\Parado_protagonista\\Parado_protagonista.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -76,6 +108,14 @@
                 "id": "4224a5fe-e304-43af-9530-27ff100e56bc",
                 "resourcePath": "views\\29544773-22f0-4b94-ab14-0b7ff4ec1d63.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "35785082-efbd-4025-9ac1-6f5e550ec002",
+            "Value": {
+                "id": "0f7a21b9-968d-420c-9796-99c0ed09f29e",
+                "resourcePath": "scripts\\Escondido_protagonista\\Escondido_protagonista.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -103,6 +143,14 @@
             }
         },
         {
+            "Key": "5af98b91-f96c-4ece-b46b-b07aa497fdb7",
+            "Value": {
+                "id": "bcb515f5-62d0-45c8-b276-7e5e7d35b866",
+                "resourcePath": "sprites\\Prota_Movimiento\\Prota_Movimiento.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "633148d8-8267-4d76-98a7-1923ccb77c07",
             "Value": {
                 "id": "fec1acd5-61f1-4872-bfc3-47e023fd6856",
@@ -127,6 +175,22 @@
             }
         },
         {
+            "Key": "75031460-7360-4f04-89ca-57d27ca40724",
+            "Value": {
+                "id": "4041a9ff-1d55-4efb-a035-c3fcb86a530b",
+                "resourcePath": "scripts\\Enemigo_movimiento\\Enemigo_movimiento.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "7aa0def8-c5ad-4039-b9af-3f6ab84ce355",
+            "Value": {
+                "id": "13ba9876-8d67-4d90-a6f2-86eb9aeb0dce",
+                "resourcePath": "scripts\\Movimiento_protagonista\\Movimiento_protagonista.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "7ab9861e-6816-42da-a1bf-a25f81fa9231",
             "Value": {
                 "id": "f0599803-28ba-4792-b90d-ff18f4743ed1",
@@ -147,6 +211,30 @@
             "Value": {
                 "id": "056ab7f5-2e79-4537-8844-990494aefb1f",
                 "resourcePath": "views\\89ea6230-366b-432b-a034-3d9d9b62ed21.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "9480c5cd-e840-4221-8a59-f0817e2f11ff",
+            "Value": {
+                "id": "9c9e8811-d2eb-46af-a04d-fcd8e062f0a8",
+                "resourcePath": "sprites\\Prota_Parado\\Prota_Parado.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9e0c246e-2fdd-4ecd-ab63-5d753e00fdce",
+            "Value": {
+                "id": "7a0e176e-9ef6-4464-8ef0-ca5c9ca4f59a",
+                "resourcePath": "views\\9e0c246e-2fdd-4ecd-ab63-5d753e00fdce.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "9e3c0e6e-066b-4379-b964-c129350c497c",
+            "Value": {
+                "id": "3236aea9-6adb-4475-8229-e8aef1612c42",
+                "resourcePath": "views\\9e3c0e6e-066b-4379-b964-c129350c497c.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -199,6 +287,14 @@
             }
         },
         {
+            "Key": "e6df7b3d-e28e-4e7d-aac7-49d7dee1c29f",
+            "Value": {
+                "id": "d7657044-910e-4481-92b0-b6ae06181dfd",
+                "resourcePath": "paths\\RutaEnemigo\\RutaEnemigo.yy",
+                "resourceType": "GMPath"
+            }
+        },
+        {
             "Key": "f1bc2d2d-3a11-4c4a-ad83-b08afc692079",
             "Value": {
                 "id": "d7664787-4ef7-48e3-9bc7-4eef5aa64841",
@@ -208,7 +304,10 @@
         }
     ],
     "script_order": [
-        
+        "7aa0def8-c5ad-4039-b9af-3f6ab84ce355",
+        "22e84720-85d4-4d63-a201-27983623f589",
+        "35785082-efbd-4025-9ac1-6f5e550ec002",
+        "75031460-7360-4f04-89ca-57d27ca40724"
     ],
     "tutorial": ""
 }
